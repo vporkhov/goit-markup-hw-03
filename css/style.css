@@ -1,0 +1,97 @@
+/** 
+   На интерактивные элементы - :focus :hover
+   На не интерактивные элементы - только :hover
+   
+   для Raleway – 700
+   для Roboto – 400, 500, 700 и 900.
+**/
+
+
+
+/** colors **/
+
+:root{
+   --main-text-color: #212121;
+   --second-text-color: #757575;
+   --accent-text-color: #2196F3;
+   --main-background-color: #FFFFFF;
+   --second-background-color: #F5F4FA;
+   --third-background-color: #2F303A;
+
+}
+
+/** mix **/
+.list{
+   list-style: none;
+}
+
+a{    
+   text-decoration:none;
+}
+
+a:hover, 
+a:focus{
+   color: var(--accent-text-color);
+}
+
+button:hover{
+
+}
+button:focus{
+
+}
+.map{
+   color: var(--main-background-color);
+   font-family: Roboto;
+   font-style: normal;
+   font-size: 14px;
+}
+/* body */
+
+.page {
+   color: var(--main-text-color);
+   background: var(--main-background-color);
+   font-family: 'Roboto', 'Raleway', sans-serif;
+}
+
+/* header */
+
+.header{
+
+}
+.header-link{
+   color:var(--accent-text-color);
+}
+
+.header-link-text{
+   color:var(--main-text-color);
+
+}
+
+.header-list{
+
+}
+.header-list-contact{
+   color: var(--second-text-color);
+}
+
+.section{
+
+}
+
+.section-title{
+
+}
+
+/* footer */
+
+.footer-link-text{
+   color: rgba(255, 255, 255, 0.6);
+   font-family: Roboto;
+   font-style: normal;
+   font-size: 14px;
+}
+
+
+
+/* portfolio.html */
